@@ -26,7 +26,7 @@ define( 'DB_NAME', 'wordpress' );
 define( 'DB_USER', 'mokellat' );
 
 /** MySQL database password */
-define( 'DB_PASSWORD', '123' );
+define( 'DB_PASSWORD', '123456' );
 
 /** MySQL hostname */
 define( 'DB_HOST', 'localhost' );
