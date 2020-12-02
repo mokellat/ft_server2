@@ -42,6 +42,8 @@ RUN	echo "debut -----------------------------------"
 COPY srcs/default /etc/nginx/sites-available/default
 RUN	echo "Fin ---------------------------------------"
 COPY srcs/wordpress.sql ./
+COPY srcs/ssl.crt /etc/ssl/certs
+COPY srcs/ssl.key /etc/ssl/certs
 #RUN ./srcs/services.sh
 # i need a comment here
 	#rm -rf /var/lib/apt/lists/*
