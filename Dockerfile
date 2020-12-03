@@ -20,7 +20,7 @@ RUN	apt-get install -y libnss3-tools
 RUN	echo "Fin d'installation --------------------"
 #mysql config
 RUN	echo "debut ---------------------------------"
-COPY srcs/user.sh /
+COPY srcs/user.sh ./
 RUN	echo "fin ----------------------------------"
 #phpmyadmin config
 RUN	echo "debut --------------------------------"
